@@ -1,0 +1,46 @@
+<svg width="100%" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>GitHub stats summary</title>
+<desc>30 repositories, 25 stars, 4 followers, 4 following, 121 contributions in the last year, 93 percent commits and 7 percent pull requests.</desc>
+
+<rect x="0" y="0" width="1200" height="300" rx="10" fill="#1a1a2e" stroke="#2a2a45" stroke-width="1"/>
+
+<text x="40" y="44" font-family="Courier New, monospace" font-size="15" fill="#2DD4BF" letter-spacing="3">GITHUB STATS &#8212; D-MAJUMDER</text>
+<line x1="40" y1="58" x2="1160" y2="58" stroke="#2a2a45" stroke-width="1"/>
+
+<!-- metric blocks -->
+<g font-family="Courier New, monospace" text-anchor="middle">
+  <text x="150" y="120" font-size="30" fill="#2DD4BF">30</text>
+  <text x="150" y="144" font-size="11" fill="#8b8ba3">repositories</text>
+
+  <text x="360" y="120" font-size="30" fill="#F4A261">25</text>
+  <text x="360" y="144" font-size="11" fill="#8b8ba3">stars earned</text>
+
+  <text x="570" y="120" font-size="30" fill="#2DD4BF">121</text>
+  <text x="570" y="144" font-size="11" fill="#8b8ba3">contributions (last yr)</text>
+
+  <text x="780" y="120" font-size="30" fill="#F4A261">4</text>
+  <text x="780" y="144" font-size="11" fill="#8b8ba3">followers</text>
+
+  <text x="990" y="120" font-size="30" fill="#2DD4BF">4</text>
+  <text x="990" y="144" font-size="11" fill="#8b8ba3">following</text>
+</g>
+
+<line x1="40" y1="180" x2="1160" y2="180" stroke="#2a2a45" stroke-width="1"/>
+
+<!-- commit vs PR split -->
+<text x="40" y="205" font-family="Courier New, monospace" font-size="12" fill="#c9c9d9">activity split</text>
+<rect x="40" y="215" width="1120" height="16" rx="4" fill="#0c0c16"/>
+<rect x="40" y="215" width="1041" height="16" rx="4" fill="#2DD4BF"/>
+<rect x="1081" y="215" width="79" height="16" rx="4" fill="#F4A261"/>
+<text x="40" y="248" font-family="Courier New, monospace" font-size="11" fill="#8b8ba3">93% commits</text>
+<text x="1160" y="248" text-anchor="end" font-family="Courier New, monospace" font-size="11" fill="#8b8ba3">7% pull requests</text>
+
+<!-- language bar (from pinned repos) -->
+<text x="40" y="275" font-family="Courier New, monospace" font-size="12" fill="#c9c9d9">top languages (pinned)</text>
+<rect x="260" y="264" width="620" height="16" rx="4" fill="#0c0c16"/>
+<rect x="260" y="264" width="310" height="16" fill="#2DD4BF"/>
+<rect x="570" y="264" width="207" height="16" fill="#F4A261"/>
+<rect x="777" y="264" width="103" height="16" rx="4" fill="#8b8ba3"/>
+<text x="890" y="276" font-family="Courier New, monospace" font-size="11" fill="#8b8ba3">Python · HTML · Dart</text>
+
+</svg>
