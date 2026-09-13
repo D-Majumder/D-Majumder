@@ -1,95 +1,32 @@
-<div align="center">
+# Dhruba Majumder
 
-<img src="cmp_banner.svg" alt="CMP signal chain schematic" width="100%" />
+BCA student (4th year) and software builder. I work across full-stack web apps, security/investigation tooling, and embedded/robotics systems.
 
-<br/><br/>
+## Projects
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&pause=1200&color=2DD4BF&center=true&vCenter=true&width=650&lines=CMP+DIAGNOSTIC+CONSOLE+%E2%80%94+BOOT+SEQUENCE;LOADING+MASTER+BRAIN+TRANSMITTER...;%E2%96%93%E2%96%93%E2%96%93+CHANNELS+%E2%80%94+SYNCED;%E2%96%93%E2%96%93%E2%96%93+LINK%3A+MASTER+%E2%86%92+SLAVE+%E2%80%94+OK;OPERATOR+IDENTIFIED%3A+DHRUBA+MAJUMDER;WELCOME+TO+THE+LOGBOOK." alt="Typing SVG" />
+### [Witnessgraph](https://github.com/D-Majumder/witnessgraph)
+An evidence-first, reproducible cybersecurity investigation platform. Ingests evidence, keeps it immutable and content-addressed, represents hypotheses as explicitly evidence-backed claims, and lets a case be exported and independently reproduced — provenance hash and all. Local-first, defensive/research tool. Python 3.11+, SQLite-backed, CLI-driven. Currently v0.1: core data model, ingestion adapters (JSONL/CSV/syslog), time-contradiction detection.
 
-</div>
+### [CivicSync](https://github.com/D-Majumder/civic-sync)
+AI-assisted civic issue reporting, routing, and accountability, built for real municipal workflows. Turns a free-text citizen complaint (English, Hindi, or Bengali) into a structured, trackable record — classified, routed to the right jurisdiction, and followed through to resolution. FastAPI backend, Gemini-backed extraction with an explicit no-fabrication rule, full lifecycle state machine, and a real evaluation harness. Hackathon prototype, not a production deployment.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-2DD4BF?style=for-the-badge&labelColor=1a1a2e" />
-  <img src="https://img.shields.io/badge/BUILD-CMP--v1-F4A261?style=for-the-badge&labelColor=1a1a2e" />
-  <img src="https://img.shields.io/badge/SIGNAL-STABLE-2DD4BF?style=for-the-badge&labelColor=1a1a2e" />
-</p>
+### [News-Dash](https://github.com/D-Majumder/news-dash)
+A full-stack news reader on the MERN stack. Fetches live news via the GNews API and generates AI summaries with Google's Gemini API; signed-in users can save summaries to a personal dashboard. Express/MongoDB backend, React frontend, JWT auth. Includes CodeQL-verified rate limiting and injection hardening on the backend.
 
----
+### Cognitive Mobility Platform (CMP)
+A wireless bionic wheelchair steered by the user's own body signals, built with **Team Ekadanta** for a science/engineering fair project (patent filing in progress). I was responsible for the technical implementation — signal acquisition, the master/slave control link, and motor/sensor integration — within the team's project.
 
-### `> whoami`
+## Also building
 
-```yaml
-name: Dhruba Majumder
-role: BCA student (4th year) · builder · founder
-currently_building: Cognitive Mobility Platform (CMP)
-  desc: >
-    A wireless bionic wheelchair, steered by the body's own signals —
-    ▓▓▓ / ▓▓▓ / ▓▓▓ [REDACTED] — read by a Master Brain Transmitter
-    and relayed over ▓▓▓▓▓▓▓▓▓ [CLASSIFIED] to a Slave Mobility Chassis.
-  status: patent pending
-also_running: Hastavya
-  desc: >
-    A handcrafted goods brand reviving traditional clay art and
-    heritage craft from Krishnanagar — trade-licensed, live on Meesho.
-also_managing: Abhay Charan Art Academy
-  desc: >
-    Social media, website build & upkeep, database & student records.
-next_build: Bionic arm, brain-signal controlled
-  desc: exploring new control methods — early stage
-side_skill: beginner laptop / PC hardware repair
-interests: [blockchain, computer vision, embedded systems, robotics, post-production audio/video]
-```
+- **Hastavya** — a small trade-licensed heritage clay craft brand, live on Meesho.
+- **Abhay Charan Art Academy** — social media presence, website, and student records system.
 
----
+## Stack
 
-### `> system.modules --list`
-
-| Channel | Module | Status |
-|---|---|---|
-| `▓▓▓/▓▓▓/▓▓▓` | [REDACTED] signal acquisition | 🟢 calibrated |
-| `▓▓-LINK` | [CLASSIFIED] Master ↔ Slave handshake | 🟢 synced |
-| `MOTOR` | [REDACTED] driver · per-motor trim | 🟢 tuned |
-| `SENSOR` | [REDACTED] obstacle avoidance | 🟢 polling |
-| `POWER` | Dual-cell battery pack | 🟢 nominal |
-| `IP_STATUS` | CMP — patent pending | 🟡 filing in progress |
-| `ROBOTICS_NEXT` | Bionic arm, brain-signal controlled | 🔵 early stage |
-| `ACAA` | Abhay Charan Art Academy — socials, website, DB, student records | 🟢 live |
-| `HASTAVYA` | Heritage clay craft, live commerce | 🟢 shipping |
-| `HW_REPAIR` | Laptop / PC hardware repair | 🟡 learning |
-
----
-
-### `> stack.probe()`
-
-<p align="center">
+<p>
   <img src="https://skillicons.dev/icons?i=cpp,c,java,python,arduino,raspberrypi,git,github&theme=dark" />
 </p>
 
----
+## Contact
 
-### `> stats.fetch --self`
-
-<p align="center">
-  <img src="stats_card.svg" alt="GitHub stats" width="100%" />
-</p>
-
----
-
-### `> log.tail -f`
-
-```diff
-+ [OK] Firmware ▓▓▓▓▓▓▓▓▓▓▓ resolved — non-blocking poll active
-+ [OK] Presentation deck redesigned — sage-mist visual identity
-+ [OK] Thermocol scale model complete — ready for science fair floor
-! [INFO] Next milestone: closed-loop calibration pass on Slave Chassis
-```
-
----
-
-<p align="center">
-  <em>Two hands, two disciplines — one wired for signals, one shaped in clay.</em>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/iamdhrubamajumder/"><img src="https://img.shields.io/badge/LinkedIn-2DD4BF?style=for-the-badge&logo=linkedin&logoColor=1a1a2e&labelColor=1a1a2e" /></a>
-</p>
+[LinkedIn](https://www.linkedin.com/in/iamdhrubamajumder/) · [GitHub](https://github.com/D-Majumder)
